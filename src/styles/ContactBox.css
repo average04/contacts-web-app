@@ -1,0 +1,59 @@
+.cb-box{
+    background-image: url("../../public/assets/endless-constellation.svg");
+    background-size: 100%;
+    background-color: rgb(31, 33, 117);
+    background-repeat: no-repeat;
+    min-width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: space-around;;
+    color: white;
+    border-radius: 10pt;
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.cb-container{
+    top: 150pt;
+    left: 10%;
+    width: 80%;
+    min-height: 40vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.cb-header{
+    top: 0pt;
+    position: absolute;
+    height: 100pt;
+    background-color: rgb(25, 15, 141);
+    border-top-left-radius: 10pt;
+    border-top-right-radius: 10pt;
+    width: 60%;
+    /* opacity: 80%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cb-add{
+    display: flex;
+}
+
+.cb-add-icon{
+    margin-top: 35pt;
+    margin-left:40pt;
+    transform: scale(2);
+    cursor:pointer;
+}
+
+.cb-search-icon{
+    margin-top: 25pt;
+    margin-right:40pt;
+    transform: scale(2);
+    cursor:pointer;
+}

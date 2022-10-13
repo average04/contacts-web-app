@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-image: url("../public/assets/subtle-prism.svg");
+  min-height: 280pt;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Josefin Sans";
+}
+
+.App-header h1 {
+  margin-left: 15%;
+  margin-bottom: 90pt;
+}
+

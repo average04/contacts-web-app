@@ -1,0 +1,30 @@
+.cc-hidden-input{
+    background-color: transparent;
+    border: none;
+    font-family: "Josefin Sans";
+    font-size: 15pt;
+    color:white;
+}
+
+.cc-hidden-input:disabled{
+    outline: none;
+    color: white;
+}
+
+.cc-hidden-input:enabled{
+    outline: auto;
+    height: 20pt;
+}
+
+.cc-card {
+    border-color: rgb(243, 243, 243);
+    border-width: 0.5pt solid;
+    margin: 10pt;
+    background-image: url("../../public/assets/liquid-cheese.svg");
+    background-size:     cover;                   
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    min-height: 80pt;
+    max-width: 250pt;
+    min-width: 100pt;
+}
